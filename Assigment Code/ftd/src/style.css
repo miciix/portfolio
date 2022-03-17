@@ -1,0 +1,105 @@
+#ui_login { 
+    display:block; 
+    width: 200px;
+    margin: auto;
+}
+#ui_play { 
+    margin-top: 10px;
+}
+#ui_register,#ui_profile{
+    width:400px;
+    margin: auto;
+}
+
+#ui_leaderboard{
+    margin:auto;
+    width: 300px;
+}
+#ui_leaderboard .item{
+    padding: 20px;
+}
+#stat{
+    position: relative;
+    display: inline-block;
+
+}
+
+#text{
+    border:1px solid black;
+    position: absolute;
+    line-height: 20px;
+    text-align: left;
+    background-color: white;
+}
+h1{
+    color:green; 
+    text-align: center;
+}
+#endgame, #wingame,#gamemode{
+    top: 40%;
+    left: 30%;
+    width: 40%;
+    background-color: white;
+    position: absolute;
+    border: 1px solid black;
+}
+
+.inputbox{
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: 1px solid #b7b7b7;
+    border-radius: 3px;
+    color: black;
+    background:white;
+}
+#btn{
+    margin-right: 20px;
+}
+
+.error{
+    color:red;
+
+}
+
+nav ul{
+    /*remove dot beside list*/
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    color: white;
+    /*add boarder around nav*/
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    width: 400px;
+    margin: auto;
+}
+nav li{
+    /*add gap between each nav*/
+    margin: 1px;
+    background-color: green;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+
+}
+#modebtn{
+    display: flex;
+    justify-content: center;
+}
+.star{
+    color:red
+}
+fieldset{
+    width:230px
+}
+@media screen and (min-width: 40em) {
+    nav ul {
+        display: flex;
+    }
+
+    nav li {
+        flex: 1;
+
+    }
+}
