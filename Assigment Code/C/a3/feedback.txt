@@ -1,0 +1,17 @@
+design (6 / 7)
+  failed test_other_processes_exit_status
+
+output (9 / 10)
+  failed test_too_many_filters
+
+arguments (3 / 5)
+  failed test_mixed_arg_78a
+  failed test_non_integer_arg
+  failed test_space_in_arg
+
+filter (5 / 5)
+
+
+our_filter (3 / 3)
+
+26.00 / 30
